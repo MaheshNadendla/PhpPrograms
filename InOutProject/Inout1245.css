@@ -1,0 +1,1258 @@
+
+
+
+
+
+
+html{
+  user-select: none;
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+  width: 100vw;
+  /* background: linear-gradient(#eefff9 0%,#ffccc1 49%,#dcdbff 100%);
+  background: linear-gradient(135deg,#153677,#4e085f); */
+  /* background: linear-gradient(135deg,#4203a9,#90bafc); */
+  background-color: none;
+}
+/* ::selection{
+  background-color: yellow;
+  color: red;
+} */
+
+body {
+  margin: auto;
+ 
+  overflow: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  /* background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%); */
+  /* animation: gradient 15s ease infinite;
+  background-size: 400% 400%; */
+  background-attachment: fixed;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  width: auto;
+
+  background: linear-gradient(#141e30, #243b55);
+  
+  color: rgb(14, 233, 98);
+  
+  box-shadow: rgba(0, 0, 0, 0.95) 0 8px 15px;
+ 
+  /* animation: gradient 12s ease infinite; */
+  /* background-size: 400% 400%; */
+  border-bottom-left-radius: 10px ;
+  border-bottom-right-radius: 10px ;
+
+}
+
+
+
+
+nav {
+  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.318);
+  text-align: center;
+  border-radius: 90px;
+  border: 1px solid rgba(255, 255, 255, 0.141) ;
+  box-shadow: rgba(0, 0, 0, 0.55) 0 8px 15px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 70px;
+  width: auto;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0.1);   /*0, 0 */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 22px;
+  display: block;
+  padding: 10px 0;
+}
+ a :hover{
+  color: red;
+
+  
+}
+
+
+
+  
+
+
+
+
+.underLine1{
+  position: relative;
+}
+.underLine1::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.underLine1:hover::after {
+  width: 100%;
+  
+}
+
+
+.underLine2{
+  position: relative;
+}
+.underLine2::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.underLine2:hover::after {
+  width: 100%;
+  
+}
+
+
+.underLine3{
+  position: relative;
+}
+.underLine3::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.underLine3:hover::after {
+  width: 100%;
+  
+}
+
+
+.underLine4{
+  position: relative;
+}
+.underLine4::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.underLine4:hover::after {
+  width: 100%;
+  
+}
+
+.underLine5{
+  position: relative;
+}
+.underLine5::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+}
+.underLine5:hover::after {
+  width: 100%;
+  
+}
+
+
+.underLine6{
+  
+  position: relative;
+}
+.underLine6::after{
+  content: '';
+  height: 2px;
+  background-color:  rgb(32, 243, 145);
+  width: 0px;
+  position: absolute;
+  top: 38px;
+  left: 0px;
+  z-index: 0;
+  transition: 0.5s;
+
+  
+}
+.underLine6:hover::after {
+  width: 100%;
+  
+}
+
+
+/* .man:focus::after {
+  width: 100%;
+  
+} */
+
+/* .Main:hover .man:hover{
+  width: 100%;
+  
+} */
+.man1::after{
+  width: 100%;
+}
+.man2::after{
+  width: 100%;
+  /* height: 150%; */
+}
+.man3::after{
+  width: 100%;
+  /* height: 150%; */
+}
+.man4::after{
+  width: 100%;
+}
+.man5::after{
+  width: 100%;
+  /* height: 150%; */
+}
+.man6::after{
+  width: 100%;
+  /* height: 150%; */
+}
+/* .man3::after{
+  width: 100%;
+}
+.man4::after{
+  width: 100%;
+}
+
+.man5::after{
+  width: 100%;
+}
+.man6::after{
+  width: 100%;
+}
+
+.man7::after{
+  width: 100%;
+} */
+
+.menu-button {
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+}
+
+
+
+.SetTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:rgba(214, 181, 181, 0.79);
+  /* rgb(175, 145, 160); */
+  font-size: 60px;
+  /* position: relative;
+  bottom : 10px; */
+}
+
+
+.Main{
+  padding-top: 50px;
+  display:grid;
+  justify-content:center;
+  align-items:center;
+}
+input{
+  height: 27px;
+  width: 250px;
+  border-style:ridge;
+  border-color: red;
+  border-radius: 3.5%;
+  background:linear-gradient(to right ,#fc4,#6dd5ed);
+  text-align: center;
+  font-size: large;
+  opacity: 50%;
+}
+
+
+button{
+
+  padding : 12px 26px;
+  color: #fff;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 0px 0px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+  border-radius: 10px;
+  background-color: #111111;
+  background-image: radial-gradient(76% 151% at 52% 5%, rgba(255, 255, 255, 0.23) 0%, transparent 100%);
+  cursor:pointer;
+  height: 50px;
+  width: 150px;
+  margin: 20px;
+
+
+}
+
+
+button:hover {
+  font-size: 100%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 8px 15px;
+  transform: translateY(1px);
+  
+
+} 
+
+ button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.MenuBar{
+  display: none;
+  height: 100vh;
+  width: 22vw;
+  background-color: aqua;
+  position: absolute;
+  animation: MoveLeft linear 0.15s;
+ 
+}
+
+.ViewAllDetails{
+
+  background-color: #fc4;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: x-large;
+  text-align: end;
+  padding: 20px;
+
+}
+
+.DetalisListsHeading{
+  padding-left: 5%;
+}
+
+
+
+.DetalisLists{
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 50px;
+  text-align: center;
+  background-color: aqua;
+  color: black;
+ 
+  box-shadow: none;
+  border-radius: 0px;
+  width: 22vw;
+  font-weight: lighter;
+  margin: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  
+
+}
+
+.DetalisLists:hover{
+  background-color: white;
+  cursor: pointer;
+
+}
+
+
+
+.MenuBar2{
+  display: none;
+  height: 100vh;
+  width: 22vw;
+  background-color: aqua;
+  position: absolute;
+  right: 0px;
+  z-index: 5;
+  animation: MoveRight1 linear 0.15s;
+ 
+}
+
+
+
+
+
+.r {
+  background-color: red;
+  height: 5px;
+  width: 35px;
+  margin-top: 5px;
+  position: relative;
+  right: 16px;
+  bottom: 4px;
+}
+
+.r1 {
+  transition: transform 0.5s ease;
+  border: none;
+}
+.r11 {
+  transform: rotate(-45deg);
+  position: relative;
+  top: 5px;
+}
+
+
+
+/* .r2 {
+  transition: transform 0.5s ease;
+} */
+.r22 {
+  display: none;
+}
+
+
+.r3 {
+  transition: transform 0.5s ease;
+}
+.r33 {
+  transform: rotate(45deg);
+  position: relative;
+  top: -5px;
+}
+
+.ThreeLinesThese{
+
+      width: 50px;
+      height: 50px;
+      position: relative;
+      background-color: transparent;
+      right:13.5%;
+}
+
+
+.Map{
+
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-color: transparent;
+  left:13.5%;
+  /* background-image: url("images/Map.png"); */
+  background-size: contain;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Map-img1{
+
+  
+  
+  scale: 0.1;
+  
+
+}
+
+.Map-img2{
+  
+  scale: 0.1;
+  display: none;
+  
+}
+
+
+.Map2{
+
+  box-shadow: none;
+  background-image: none;
+  top:-10px;
+  right:-2px;
+}
+
+
+
+
+.r22 {
+  display: none;
+}
+
+
+.HideMenuBar2{
+
+  width: 22vw;
+  display: block;
+  z-index: 5;
+  animation: MoveLeft1 linear 0.15s;
+
+}
+
+
+
+.ChangeMenuButton{
+  background-color: transparent;
+  box-shadow: none;
+  background-image: none;
+  top:-7px;
+  z-index: 10;
+}
+
+.ChangeMenuButton:hover{
+ background-color: none;
+
+
+}
+
+
+.HideMenuBar{
+
+  width: 22vw;
+  display: block;
+  z-index: 5;
+  animation: MoveRight linear 0.15s;
+  
+
+}
+
+
+@keyframes MoveRight {
+  0% {
+    transform: translateX(-22vw);
+  }
+  50% {
+    transform: translateX(-11vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+} 
+
+@keyframes MoveLeft {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(-11vw);
+  }
+  100% {
+    transform: translateX(-22vw);
+  }
+}
+
+@keyframes MoveRight1 {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(11vw);
+  }
+  100% {
+    transform: translateX(22vw);
+  }
+} 
+
+@keyframes MoveLeft1 {
+  0% {
+    transform: translateX(22vw);
+  }
+  50% {
+    transform: translateX(11vw);
+  }
+  100% {
+    transform: translateX(0vw);
+  }
+}
+
+
+
+
+
+
+
+.Timer{
+  text-align: right;
+  color: #6dd5ed;
+  display: inline-block;
+  position: relative;
+  left:28px;
+}
+
+
+.JntuLogo{
+  opacity: 0.2;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.Reverse{
+  height: 40px;
+  width: 40px;
+  position: relative;
+
+
+}
+#ReverseBtn
+{
+
+  border: px solid black;
+  background-color: transparent;
+  background-image: none;
+  cursor: pointer;
+ 
+
+
+}
+
+#ReverseBtn3
+{
+
+  border: px solid black;
+  background-color: transparent;
+  background-image: none;
+  cursor: pointer;
+ 
+
+
+}
+
+
+#ReverseBtn2{
+  position: relative;
+  top:60px;
+  left: 10px;
+  cursor: pointer;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.IncomingDiv,.OutgoingDiv{
+  backdrop-filter: blur(1000px);
+  border: rgb(153, 131, 70);
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  border-radius: 50px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.55) 0 8px 15px;
+  border: 1px solid rgb(216, 190, 190,0.37);
+  
+}
+.IncomingBackButton,.OutgoingBackButton{
+  height: 25px;
+  padding-top: -10px;
+  padding-bottom: -10px;
+  width: 70px;
+  position: absolute;
+  top: 17px;
+  left: 13px;
+  height: 20px;
+  font-size: larger;
+  
+}
+
+.IncomingSubmitButton{
+  position: absolute;
+  bottom: 10px;
+  right:10px;
+  width: 110px;
+  height: 40px;
+  font-size: larger;
+  
+}
+
+.InputBox1.InputBox2{
+  position: absolute;
+}
+.InputBox4{
+  margin-top: 3px;
+
+}
+.DisplayError1{
+  position: absolute;
+  bottom: 160px;
+}
+.DisplayError2{
+  position: relative;
+  top: 6px;
+
+}
+
+
+
+table{
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.tableRow
+{
+  font-weight: bolder;
+  
+}
+td{
+  padding: 10px;
+}
+
+.ResetMessage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color :rgba(141, 221, 11, 0.486); 
+  font-size: x-large;
+  height: 300px;
+  width: 300px;
+  border-radius: 40px;
+
+  
+
+}
+.ResetMessageDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  background-color: transparent;
+  
+  box-shadow:rgba(0, 0, 0, 0.65) 0 8px 15px;
+  
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+
+
+}
+label{
+  margin-top: 15px;
+  margin-bottom: -8px;
+  color: rgb(178, 238, 164);
+  font-size: x-large;
+}
+
+
+
+
+
+
+/* WaveCss */
+
+
+
+
+/* @keyframes gradient {
+  0% {
+      background-position: 0% 0%;
+  }
+  50% {
+      background-position: 100% 100%;
+  }
+  100% {
+      background-position: 0% 0%;
+  }
+} */
+
+
+
+#SearchIcon{
+  /* border: 1px solid wheat; */
+  background:linear-gradient(to right ,#fc4,#6dd5ed);
+
+  padding: 1.5px;
+  border: 1px solid;
+  border-color: red;
+  border-radius: 0%;
+  width: 31px;
+  height: 31px;
+  position: relative;
+  left:-25.5px;
+  top:1.2px;
+  
+  
+}
+
+#SearchIcon :hover{
+
+  background:linear-gradient(to right ,rgb(0, 0, 0),#0d171a);
+  border: 2px solid;
+  border-color: red;
+  background-color: #FFFFFF;
+  animation: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+
+  table{
+    margin-top: -10px;
+
+    scale: 0.7;
+
+  }
+
+  #Label1{
+    
+    display: block;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #ReverseBtn3 {
+    position: relative;
+    left: 100px;
+    bottom: -50px;
+}
+
+
+  body{
+    height: auto;
+    width: 480px;
+    /* background: var(--bil); */
+  }
+
+  nav{
+    display: grid;
+    grid-template-columns:repeat(3,2fr) ;
+
+  }
+  nav a{
+    font-size: small;
+    
+  }
+
+
+  
+  
+   .FinalSerch{
+    position: absolute;
+ 
+    left:175px;
+ 
+   }
+
+   #SearchIcon{
+    position: relative;
+ 
+    top:-20px;
+    left:370px;
+    scale: 1.05;
+ 
+ 
+   }
+  
+  .JntuLogo{
+
+    height: 400px;
+    width: 400px;
+
+  }
+  
+
+  .underLine6:hover::after {
+    width: 40%;
+  }
+  .underLine6::after
+  {
+    left: 33px;
+    margin-top: -10px;
+  }
+
+  .man6::after{
+    width: 40%;
+  }
+
+
+
+  .underLine5:hover::after {
+    width: 30%;
+  }
+  .underLine5::after
+  {
+    left: 39px;
+    margin-top: -10px;
+  }
+
+  .man5::after{
+    width: 30%;
+  }
+
+  .underLine4:hover::after {
+    width: 60%;
+  }
+  .underLine4::after
+  {
+    left: 22px;
+    margin-top: -10px;
+  }
+
+  .man4::after{
+    width: 60%;
+  }
+
+
+
+  .underLine3:hover::after {
+    width: 62%;
+  }
+  .underLine3::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man3::after{
+    width: 62%;
+  }
+
+
+  .underLine2:hover::after {
+    width: 62%;
+  }
+  .underLine2::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man2::after{
+    width: 40%;
+  }
+
+
+
+  .underLine1:hover::after {
+    width: 62%;
+  }
+  .underLine1::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man1::after{
+    width: 62%;
+  }
+
+  .Main{
+
+    position: relative;
+    top:15px;
+
+  }
+
+  .SetTitle{
+    position: relative;
+
+    bottom:-25px;
+
+    font-size: xx-large;
+
+  }
+
+  button{
+    scale:0.8;
+
+  }
+
+
+  html{
+  
+    height:110dvh;
+  }
+  
+}
+
+
+
+
+@media only screen and (max-width:360px){
+
+  .ThreeLinesThese{
+    right:5.5%;
+  }
+  .Map{
+    left:5.5%;
+  }
+
+  .HideMenuBar2
+  {
+    width: 60vw;
+  }
+
+  .HideMenuBar
+  {
+    width: 80vw;
+  }
+
+
+
+
+  table{
+    margin-top: -10px;
+
+    scale: 0.7;
+
+  }
+
+  #Label1{
+    
+    display: block;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #ReverseBtn3 {
+    position: relative;
+    left: 100px;
+    bottom: -50px;
+}
+
+
+  body{
+    height: auto;
+    width: 480px;
+    /* background: var(--bil); */
+  }
+
+  nav{
+    display: grid;
+    grid-template-columns:repeat(3,2fr) ;
+
+  }
+  nav a{
+    font-size: small;
+    
+  }
+
+
+   #SearchIcon{
+   position: relative;
+
+   top:-20px;
+   left:370px;
+   scale: 1.05;
+
+   
+
+
+
+  }
+  
+  .FinalSerch{
+   position: absolute;
+
+   left:175px;
+
+  }
+
+  
+  .JntuLogo{
+
+    height: 400px;
+    width: 400px;
+
+  }
+  
+
+  .underLine6:hover::after {
+    width: 40%;
+  }
+  .underLine6::after
+  {
+    left: 33px;
+    margin-top: -10px;
+  }
+
+  .man6::after{
+    width: 40%;
+  }
+
+
+
+  .underLine5:hover::after {
+    width: 30%;
+  }
+  .underLine5::after
+  {
+    left: 39px;
+    margin-top: -10px;
+  }
+
+  .man5::after{
+    width: 30%;
+  }
+
+  .underLine4:hover::after {
+    width: 60%;
+  }
+  .underLine4::after
+  {
+    left: 22px;
+    margin-top: -10px;
+  }
+
+  .man4::after{
+    width: 60%;
+  }
+
+
+
+  .underLine3:hover::after {
+    width: 62%;
+  }
+  .underLine3::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man3::after{
+    width: 62%;
+  }
+
+
+  .underLine2:hover::after {
+    width: 62%;
+  }
+  .underLine2::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man2::after{
+    width: 40%;
+  }
+
+
+
+  .underLine1:hover::after {
+    width: 62%;
+  }
+  .underLine1::after
+  {
+    left: 21px;
+    margin-top: -10px;
+  }
+
+  .man1::after{
+    width: 200%;
+  }
+
+  .Main{
+
+    position: relative;
+    top:15px;
+
+  }
+
+  .SetTitle{
+    position: relative;
+
+    bottom:-25px;
+
+    font-size: xx-large;
+
+  }
+
+  button{
+    scale:0.8;
+
+  }
+
+
+  html{
+  
+    height:135dvh;
+  }
+  .Main button{
+
+    margin: 15px;
+
+  }
+
+  
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+<div>  
+                        <div class='_Identity'>$Identity</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$CheckPlace</div> 
+                    </div>  
+
+                    <div>
+                        <div class='_RollNo'>Roll No</div>
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$id</div>
+                    </div>
+                    
+                    <div>  
+                        <div class='_Name'>Name</div>
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$name</div> 
+                    </div>  
+
+                    <div> 
+                        <div class='_Phone'>Phone</div>
+                        <div class='Semi'>$Break</div>
+                        <div class='RespValue'>$phone</div>
+                    </div>
+
+                    <div> 
+                        <div class='_Place'>Place</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$place</div> 
+                    </div>
+
+                    <div>  
+                        <div class='_OutDate'>OutDate</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'> </div> 
+                    </div>  
+
+                    <div>  
+                        <div class='_OutTime'>OutTime</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$outime</div> 
+                    </div>
+                    
+                    <div>  
+                        <div class='_InDate'>InDate</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'> </div> 
+                    </div>  
+
+                    <div>  
+                        <div class='_InTime'>InTime</div> 
+                        <div class='Semi'>$Break</div>   
+                        <div class='RespValue'>$intime</div> 
+                    </div>
+
+                    <div>  
+                        <div class='_Status'>Status</div> 
+                        <div class='Semi'>$Break</div> 
+                        <div class='RespValue'>$status</div> 
+                    </div>

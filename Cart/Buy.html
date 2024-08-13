@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="Buy.css">
+</head>
+<body>
+    <header class="header">
+        <div class="containerh">
+            <h1>Shopping Cart</h1>
+            <nav>
+                <button onclick="ShowCart()">View Cart</button>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        
+    </div>
+
+
+    <div class="Main">
+        <button onclick="ShowMenu()">Back</button>
+        <h1>Shopping Cart</h1>
+        <div id="cart-items1" class="cart-items1">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total1">
+            <span>Total:</span>
+            <span id="total-price1">$0.00</span>
+        </div>
+        <button onclick="checkout()">Proceed to Checkout</button>
+    </div>
+
+
+    <div class="footer">
+        <p> 
+          &copy; 2024 My New Website. All rights reserved. |
+          <a href="#privacy-policy">Privacy Policy</a> |
+          <a href="#terms-of-service">Terms of Service</a>
+        </p>
+        <p>
+          Haliya Main Street, Nalgonda, Hyderbad | Mahesh147@gmail.com | (630)
+          531-6531
+        </p>
+      </div>
+
+
+    <script src="Buy.js"></script>
+</body>
+</html>

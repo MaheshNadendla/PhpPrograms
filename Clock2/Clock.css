@@ -1,0 +1,157 @@
+.Screen{
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Road{
+
+    height: 50vh;
+    width: 50vh;
+    background-color: yellow;
+    border: solid rgb(84, 27, 218) 8px;
+
+   
+  
+    border-radius: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.mass{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+   
+}
+.Minute{
+
+    width: 40%;
+    height: 3px;
+    
+    background-color: white;
+
+    position: relative;
+
+    left:20%;
+    top:3px;
+    
+    z-index: 5;
+
+    transform-origin: top left;
+
+    rotate: 270deg;
+    
+}
+
+.Min{
+  
+    width: 30%;
+    height: 3px;
+    background-color: rgb(0, 256, 0);
+
+    position: relative;
+
+    left:15%;
+    
+    rotate: 270deg;
+
+    z-index: 5;
+
+    transform-origin: top left;
+    
+}
+
+.Sec{
+   
+    width: 20%;
+    height: 3px;
+    background-color: red;
+
+    position: relative;
+
+    left:10%;
+    bottom: 3px;
+    
+    rotate: 270deg;
+
+    z-index: 5;
+
+    transform-origin: top left;
+    
+}
+label{
+    font-weight: 900;
+}
+.DigClo{
+
+    font-size: large;
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    background-color: rgba(255, 228, 196, 0.493);
+    border-radius: 2px;
+    position: absolute;
+    left: 54%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Cir{
+    height: 20px;
+    width: 20px;
+    background-color: powderblue;
+    border-radius: 50%;
+    z-index: 100;
+    position: absolute;
+}
+
+.ClockImg{
+    scale: 1.2;
+    position: absolute;
+    
+    rotate: 1.55deg;
+    
+   
+
+    box-shadow: none;
+}
+
+
+
+@media only screen and (max-width:360px) {
+
+   
+
+    .ClockImg{
+
+        scale: 0.7;
+
+    }
+    .Road{
+        background-color: transparent;
+        border: none;
+        scale: 0.8;
+
+       
+        
+    }
+
+    
+
+
+
+   
+    
+}

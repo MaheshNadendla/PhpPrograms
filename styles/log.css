@@ -1,0 +1,55 @@
+.screen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    background-color: green;
+    width: 400px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.Main :nth-child(2) ,.Main :nth-child(3),.Main :nth-child(4),.Main :nth-child(5),.Main :nth-child(6)
+{
+    margin-top: 15px;
+
+}
+.Heading{
+    font-size: xx-large;
+    font-weight: 900;
+    position: relative;
+    bottom: 30px;
+}
+input{
+    height: 25px;
+    width: 220px;
+    border-radius: 3px;;
+}
+.Lab1{
+    position: relative;
+    right: 65px;
+    top:10px;
+}
+.Lab2{
+    position: relative;
+    right: 69px;
+    top:10px;
+    
+}
+.submit{
+    padding: 5px;
+    font-size: large;
+    position: relative;
+    left: 70px;
+    top:50px;
+
+}
