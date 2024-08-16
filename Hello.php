@@ -37,7 +37,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<ht lang="en">
 
 
   <head>
@@ -71,10 +71,8 @@
 
     </div>
   </body>
-<<<<<<< HEAD
-</html
-=======
-</html>
->>>>>>> 38c1d8c11c06fbcfd68e872d2a09688fcd4dc441
+
+</ht
+
 
 
