@@ -37,7 +37,7 @@
 ?>
 
 <!DOCTYPE html>
-<ht lang="en">
+<html lang="en">
 
 
   <head>
@@ -72,7 +72,7 @@
     </div>
   </body>
 
-</ht
+</html>
 
 
 
